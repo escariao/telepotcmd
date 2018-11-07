@@ -13,7 +13,9 @@ now = datetime.datetime.now() # Getting date and time
 def handle(msg):
     chat_id = msg['chat']['id'] # Receiving the message from telegram
     command = msg['text']   # Getting text from the message
-
+    
+    response = bot.getUpdates()
+    print(response)
     print ('Received:')
     print(command)
 
