@@ -36,6 +36,8 @@ Test the account
     {'first_name': 'Your Bot', 'username': 'YourBot', 'id': 123456789}
 
 
-Edit your Bot
+Edit your Bot (thecmdBot.py)
 ----------------
 Just go to the line `bot = telepot.Bot('')` and put your token
+
+Ok, now run `python thecmdBot.py`
